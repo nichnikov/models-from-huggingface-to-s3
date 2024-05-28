@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "models-from-huggingface-to-s3"
+version = "0.1.0"
+description = "from huggingface to S3"
+authors = ["nichnikov <a.nichnikov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+s3cmd = "^2.4.0"
+sentence-transformers = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
